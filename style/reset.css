@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 * {box-sizing:border-box;}
 /*lacal or web(@import) 글꼴 작성위치<style>삭제!!!!!!!!*/
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 /* reset.css */
 html, body,
 h1,h2,h3,h4,h5,h6,p, blockquote,address,

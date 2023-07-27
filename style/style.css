@@ -3,24 +3,39 @@
 }
 header {
     margin:0 auto;
-    background-color: aqua;
+    position: relative;
 }
 header .profile {
-    background-color: red;
+    padding:200px 0;
+    /* background-color: rgba(255,0,0,0.5); */
     display: flex; flex-flow:column nowrap;
     align-items: center;
 }
 header .profile .prof {
-    width:188px; height:242px;
+    width:200px; height:200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border:6px solid #fff;
+    box-shadow: 0 0 50px #eee ;
 }
 header .profile .prof img {width:100%;}
 header .profile h1 {
     font-family:'Lobster',cursive;
     font-size: 2rem;
+    letter-spacing: 1px;
+    margin:20px 0;
 }
-header .profile .loding {}
-header .profile .loding .bar {}
-header .profile p {}
+header .profile .loding {
+    width:500px; height: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+header .profile .loding .bar {
+    
+}
+header .profile p {
+    margin-top:30px;
+}
 header .icon {
     width:115px;
     display: flex; flex-flow: row nowrap;
@@ -28,18 +43,36 @@ header .icon {
     padding:30px 0;
 
 }
-header .icon a {width:25px; height:25px;}
-header .icon a img {width:100%;}
-header .snb {}
-header .snb span {}
+header .profile .icon a {width:25px; height:25px;}
+header .profile .icon a img {width:100%;}
+header .snb {
+    width:30px; height:25px;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between;
+    position:absolute; bottom:50px; left:50%;
+}
+header .snb span {
+    width:30px; height:5px;
+    border-radius:3px;
+    background-color: #222;
+    display:block;
+}
 header .snb span:nth-child(1) {}
 header .snb span:nth-child(2) {}
 header .snb span:nth-child(3) {}
-main {}
+main {
+    
+}
 main .ani_text {}
-main .ani_text .text1 {}
+main .ani_text .text1 {
+    transform: rotate(10deg);
+    
+}
 main .ani_text .text1 img {}
-main .ani_text .text2 {}
+main .ani_text .text2 {
+    transform: rotate(-10deg);
+    
+}
 main .ani_text .text2 img {}
 main section {}
 main section a {}
