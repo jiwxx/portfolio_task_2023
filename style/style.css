@@ -1,24 +1,34 @@
-header .bg {background: url(../image/7598163.jpg) no-repeat fixed;
+.bg {background: url(../image/7598163.jpg) no-repeat fixed;
     background-size: cover;
     margin:0 auto;
 }
 header {
-    
+    margin:0 auto;
+    background-color: aqua;
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
 }
-header .progile {}
-header .bg .progile .img {
-    
+header .profile {}
+header .profile .prof {
+    width:188px; height:242px;
 }
-header .progile .img img {width:188px; height: 242px;}
-header .progile h1 {}
-header .progile .loding {}
-header .progile .loding .bar {}
-header .progile p {}
-header .icon {}
-header .icon a {}
-header .icon a:nth-child(1) {}
-header .icon a:nth-child(2) {}
-header .icon a:nth-child(3) {}
+header .profile .prof img {width:100%;}
+header .profile h1 {font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+header .profile .loding {}
+header .profile .loding .bar {}
+header .profile p {}
+header .icon {
+    width:115px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    padding:30px 0;
+
+}
+header .icon a {width:25px; height:25px;}
+header .icon a img {width:100%;}
 header .snb {}
 header .snb span {}
 header .snb span:nth-child(1) {}
