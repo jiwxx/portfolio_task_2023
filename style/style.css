@@ -1,20 +1,21 @@
 .bg {background: url(../image/7598163.jpg) no-repeat fixed;
     background-size: cover;
-    margin:0 auto;
 }
 header {
     margin:0 auto;
     background-color: aqua;
-    display: flex; flex-flow: column nowrap;
-    align-items: center;
-    text-align: center;
 }
-header .profile {}
+header .profile {
+    background-color: red;
+    display: flex; flex-flow:column nowrap;
+    align-items: center;
+}
 header .profile .prof {
     width:188px; height:242px;
 }
 header .profile .prof img {width:100%;}
-header .profile h1 {font-family: 'Lobster', cursive;
+header .profile h1 {
+    font-family:'Lobster',cursive;
     font-size: 2rem;
 }
 header .profile .loding {}
