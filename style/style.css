@@ -74,8 +74,18 @@ main .ani_text .text2 {
     
 }
 main .ani_text .text2 img {}
-main section {}
-main section a {}
+main section {
+    margin-top:200px;
+    
+}
+main section a {
+    background-image: url(../image/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width:258px; height: 350px;
+    display: block;
+    border-radius: 100px 100px 0 0;
+}
 main section a h2 {}
 main section a p {}
 footer {}
